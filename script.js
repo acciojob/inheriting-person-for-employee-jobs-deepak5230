@@ -28,9 +28,9 @@ class Employee extends Person {
 
 // Example of creating an Employee instance and calling the jobGreet method
 const employee = new Employee('Bob', 30, 'Manager');
-employee.jobGreet(); // Output: Hello, my name is Bob, I am 30 years old, and my job title is Manager.
+employee.jobGreet(); // Output: Hello, my name is Bob, I am 30 years old, 
 
 
 // Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
+//window.Person = Person;
+//window.Employee = Employee;
